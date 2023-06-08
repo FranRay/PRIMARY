@@ -1,0 +1,139 @@
+* {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Container Div*/
+.flex-center {
+  display:flex;
+  align-content: center;
+  margin: 3% 5% 3% 5%;
+  width: auto;
+  max-height: 700px;
+  /*styling*/
+  background-color: white;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
+
+/*Respective Divs*/
+.story-image {
+  background-color: transparent;
+  display: block;
+  float: left;
+  max-width: 45%;
+  margin: auto;
+}
+
+.text {
+  background-color: transparent;
+  display: block;
+  float: left;
+  max-width: 45%;
+  max-height: 50%;
+  margin: auto;
+  overflow: auto;
+}
+
+/*Content Divs*/
+.story-image img {
+  max-width: 100%;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
+
+.text h1 {
+  background-color: transparent;
+  text-align: center;
+  color: #1883cf;
+}
+
+.text h3 {
+  background-color: transparent;
+  color: #1883cf;
+}
+
+.text h6 {
+  background-color: transparent;
+  text-align: center;
+  color: #1883cf;
+}
+
+.text p {
+  height: 550px;
+  background-color: transparent;
+  text-align: justify;
+  overflow-y: scroll;
+}
+
+/*Text Styling*/
+.primo {
+  background-color: white;
+  color: #d62314;
+}
+
+.rylie {
+  background-color: white;
+  color: #fecb17;
+}
+
+.next {
+  background-color: white;
+  color: black;
+}
+
+.next:hover {
+  background-color: white;
+  color: #1883cf;
+}
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #7E7E7E;
+}
+
+/*Main Footer*/
+.footer2 {
+  display: block;
+  color: white;
+  padding: 4px;
+  margin-top: 8%;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+}
